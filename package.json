@@ -1,0 +1,16 @@
+{
+  "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node index.js",
+    "test": "jest"
+  },
+  "author": "Alexandrea Flint",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
