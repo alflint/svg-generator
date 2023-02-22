@@ -51,13 +51,13 @@ function getResponses(){
     return inquirer.prompt(questions).then((answers) => {
         switch(answers.shape){
             case "Circle":
-                new Circle(answers.shapeColor, answers.textColor, answers.text).render()
+                new Circle(answers.shapeColor, answers.textColor, answers.text).saveLogo()
                 break;
             case "Square":
-                new Square(answers.shapeColor, answers.textColor, answers.text).render()
+                new Square(answers.shapeColor, answers.textColor, answers.text).saveLogo()
                 break;
             default:
-                new Triangle(answers.shapeColor, answers.textColor, answers.text).render()
+                new Triangle(answers.shapeColor, answers.textColor, answers.text).saveLogo()
                 break;
         }        
         if (answers.continue) {
