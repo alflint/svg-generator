@@ -5,7 +5,7 @@
 This project allows you build out your own logos utilizing SVGs. Prompts will instruct the user as to what text, text color, shape and shape color they want to have included in their logo.
 
 
-[Video Tutorial]()
+[Video Tutorial](https://drive.google.com/file/d/1YdjvbvnkBYbv1u5OXpSP3fFaVOddNENw/view?usp=sharing)
 
 
 **Generated Logo Using this project**:
